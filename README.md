@@ -5,8 +5,8 @@ This is helloworld program written using Python Web Framework, Flask.
 # Instructions
 - Pre-requisites and assumptions:
    
-    Linux/Mac OS operating system
-    Python 3.x installed
+    - Linux/Mac OS operating system
+    - Python 3.x installed
  
 To make sure your Python installation is functional, you can open a terminal window and type python3, or if that does not work, just python. Here is what you should expect to see:
 
@@ -22,7 +22,9 @@ Type "help", "copyright", "credits" or "license" for more information.
 - Extract the files to a location ex: /tmp/helloworld
 
      $cd helloworld
+     
      $virtualenv venv
+     
      $source venv/bin/activate
 
 You should see a (venv) appear at the beginning of your terminal prompt indicating that you are working inside the virtualenv. Now when you install the dependent packages from requirements.txt file in project folder using pip3:
